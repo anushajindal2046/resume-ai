@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
   res.json({ message: 'Resume AI API' });
 });
 
-// Connect to MongoDB (optional); start server either way so upload/analyze work without DB
+
 const start = async () => {
   try {
     await connectDB();
